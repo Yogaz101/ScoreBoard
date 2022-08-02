@@ -1,0 +1,31 @@
+Requirements of app:
+
+Leaderboard:
+Display Points, Games won, Nickname, games drawn, losses
+
+Match tracker:
+Takes 2 plyers, has winner selection with confirmation, records time and date of concluded match, score (score has ticker to go up or down, reset)
+
+Game tracker: timer 30mins, player name 
+
+Match History of player:
+Shows who they competed against, the game, the score, the date and time
+
+use cases:
+add player (points field, game field)
+
+start a match (competitive) (competitive takes 2 players and triggers start a match)
+
+timer
+
+view match history of a player
+
+track 4 matches at a time
+
+
+#include <iostream>
+int main(int argc, char **argv)
+{
+std::cout << 25u - 50;
+return 0;
+}

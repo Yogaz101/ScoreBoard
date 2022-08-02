@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+}
+
+header{
+	background-color: orange;
+	color: white;
+	text-transform: uppercase;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+}
+
+.Manager{
+	max-width: 55rem;
+	margin: 5rem auto;
+	border-radius: 1rem;
+	box-shadow: 2px 2px 16px 6px #aaa;
+	font-family: sans-serif;
+	height: 35rem;
+}
+
+table{
+	background-color: #16181e;
+	color: #999;
+	width: 100%;
+	border-collapse: collapse;
+	border-bottom-left-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+	overflow: hidden;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+thead{
+	font-size: ;
+	color: #555;
+	text-transform: uppercase;
+}
+
+tbody{
+	color: white;
+	font-weight: bold;
+}
+
+td{
+	padding: 1rem 1rem;
+	text-align: center;
+}
+
+th{
+	padding: 0.5rem 1rem;
+}
+
+.n{
+	text-align: center;
+	padding-left: 20px;
+}
+
+.w,.l,.p,.d{
+	text-align: right;
+	padding-right: 50px;
+}
+
+.pg{
+	padding-left: 170px;
+}
+
+.pd{
+	padding-left: 55px;
+}
+
+tbody tr:nth-child(2n){
+	background-color: #1f232c;
+}
+
+.name{
+	text-align: left;
+}
+
+nav a{
+	font-size: 0.9rem;
+	display: inline-block;
+	font-weight: bold;
+}
+
+nav a+a{
+	margin-left: 1rem;
+}
+
+h1{
+	font-size: 3rem;
+	line-height: 3rem;
+	margin-left: 10px;
+}
+
+a.active{
+	border-bottom: 4px solid white !important;
+}
+
+.ctl{
+	margin-left: 10px;
+}

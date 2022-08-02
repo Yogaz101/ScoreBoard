@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>War Room</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="scrip.js" type="module"></script>
+</head>
+<body>
+	<div class="Manager">
+		<header>
+			<h1>War Manager</h1>
+		</header>
+		<ul class="nav nav-tabs" id="myTab" role="tablist" style="margin-top: -10px; background: orange;">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="leaderboard-tab" data-bs-toggle="tab" data-bs-target="#leaderboard" type="button" role="tab" aria-controls="leaderboard" aria-selected="true">Leaderboard</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="players-tab" data-bs-toggle="tab" data-bs-target="#players" type="button" role="tab" aria-controls="players" aria-selected="false">Players</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="matches-tab" data-bs-toggle="tab" data-bs-target="#matches" type="button" role="tab" aria-controls="matches" aria-selected="false">Matches</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="timer-tab" data-bs-toggle="tab" data-bs-target="#timer" type="button" role="tab" aria-controls="timer" aria-selected="false">Timer</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="timer-tab" data-bs-toggle="tab" data-bs-target="#timer" type="button" role="tab" aria-controls="timer" aria-selected="false">Add Player</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="timer-tab" data-bs-toggle="tab" data-bs-target="#timer" type="button" role="tab" aria-controls="timer" aria-selected="false">Add Game</button>
+  </li>
+</ul>
+<div class="tab-content" id="tabContent">
+  <div class="tab-pane fade show active" id="leaderboard" role="tabpanel" aria-labelledby="leaderboard-tab">
+  	<table>
+  		<thead>
+				<tr>
+					<th></th>
+					<th class="n">Name</th>
+					<th class="w">Wins</th>
+					<th class="d">Draws</th>
+					<th class="l">Losses</th>
+					<th class="p">Points</th>
+				</tr>	
+			</thead>
+			<tbody>
+				<tr class="name">
+					<td>1</td>
+					<td>Asher</td>
+					<td>5</td>
+					<td>0</td>
+					<td>1</td>
+					<td>15</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Dr Fresh</td>
+					<td>5</td>
+					<td>0</td>
+					<td>1</td>
+					<td>15</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Asher</td>
+					<td>5</td>
+					<td>0</td>
+					<td>1</td>
+					<td>15</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+  <div class="tab-pane fade" id="players" role="tabpanel" aria-labelledby="players-tab">
+  	<table>
+			<thead>
+				<tr>
+					<th class="n">Name</th>
+					<th class="pg">Last Game Played</th>
+					<th class="pd">Date Played</th>
+				</tr>	
+			</thead>
+			<tbody>
+				<tr class="name">
+					<td>Asher</td>
+					<td>Mortal Kombat 11</td>
+					<td>January 31st, 2022</td>
+				</tr>
+				<tr>
+					<td>Dr Fresh</td>
+					<td>Blaz Blue</td>
+					<td>January 15th, 2022</td>
+				</tr>
+				<tr>
+					<td>Kelly</td>
+					<td>Harney Motors Ltd</td>
+					<td>February 1st, 2022</td>
+				</tr>
+			</tbody>
+		</table>
+  </div>
+  <div class="tab-pane fade" id="matches" role="tabpanel" aria-labelledby="matches-tab">...</div>
+  <div class="tab-pane fade" id="timer" role="tabpanel" aria-labelledby="timer-tab">
+  	<span class="timer minutes">00</span>
+  	<span class="timer">:</span>
+  	<span class="timer seconds">00</span>
+  </div>
+	</div>
+</div>
+
+</body>
+</html>
